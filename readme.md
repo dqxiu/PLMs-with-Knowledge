@@ -1,0 +1,74 @@
+
+# EditablePapers
+
+
+<!-- omit in toc -->
+## Contents
+
+
+- [EditablePapers](#editablepapers)
+  - [Introduction](#introduction)
+    - [Keywords Convention](#keywords-convention)
+  - [Papers](#papers)
+    - [Editable NN](#editable-nn)
+    - [Not Highly Related](#not-highly-related)
+
+
+
+
+## Introduction
+
+This is a paper list about **editable models**. 
+
+### Keywords Convention
+
+![](https://img.shields.io/badge/T5-DCE7F1) abbreviation 
+
+![](https://img.shields.io/badge/Continous_Template-EAD8D9) key features
+
+![](https://img.shields.io/badge/Generation-D8D0E1) main task
+
+![](https://img.shields.io/badge/Analysis-FAEFCA) main methods
+
+
+## Papers
+
+
+
+
+   
+### Editable NN
+This section contains the pilot works that might contributes to the prevalence of prompt learning paradigm.
+1. **Editable Neural Networks** ICLR 2020. ![](https://img.shields.io/badge/Editable_training-DCE7F1) 
+
+   *Anton Sinitsin, Vsevolod Plokhotnyuk, Dmitriy Pyrkin, Sergei Popov, Artem Babenko*.  [[pdf](https://openreview.net/pdf?id=HJedXaEtvS)], [[project](https://github.com/xtinkt/editable)],  2020.7
+   ![](https://img.shields.io/badge/image_classification-D8D0E1) ![](https://img.shields.io/badge/machine_translation-D8D0E1)
+
+   Related work:
+   - re-train on the original dataset augmented with new samples (expensive)
+   - use a manual cache (e.g. lookup table) that overrules model predictions on problematic samples (can't generalize to semantic equivalent inputs)
+   Method:
+   Editable Training (employ meta-learning techniques to ensure that mistakes can be corrected without harming its overall performance)
+   <!-- ![Alt text-w15](editable_train.png) -->
+
+   <img src="img/editable_train.png" width="800" alt="webhooks">
+
+
+
+
+
+
+### Not Highly Related
+
+1. **Fact-based Text Editing** ACL 2020. ![](https://img.shields.io/badge/Fact_based_text_editing-DCE7F1) 
+   
+   *Hayate Iso, Chao Qiao, Hang Li*.  [[pdf](https://aclanthology.org/2020.acl-main.17.pdf)], [[project](https://github.com/isomap/factedit)],  2020.7
+   ![](https://img.shields.io/badge/edit_draft_text_editing-D8D0E1) 
+
+
+   Main cons.:
+   - propose a new dataset (task): transforms a draft text into a revised text based on given triples
+   - new model, FACTEDITOR. The model consists of three components, a buffer for storing the draft text and its representations, a stream for storing the revised text and its representations, and a memory for storing the triples and their representations
+   <!-- ![Alt text-w15](editable_train.png) -->
+
+   <img src="img/fte.png" width="300" alt="webhooks">
