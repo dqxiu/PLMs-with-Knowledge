@@ -43,16 +43,33 @@ This is a paper list about **PLMs & Knowledge**.
 
 1. LAMA
 2. ParaREL
+3. BERT is Not a Knowledge Base (Yet): Factual Knowledge vs. Name-Based Reasoning in Unsupervised QA (preprint)
+4. How Can We Know What Language Models Know? (TACL 2020)
+5. How Much Knowledge Can You Pack Into the Parameters of a Language Model? (EMNLP 2020)
+6. Transformer Feed-Forward Layers Are Key-Value Memories (EMNLP 2021)
+7. Knowledge Neurons in Pretrained Transformers (ACL 2022)
+8. Transformer Feed-Forward Layers Build Predictions by Promoting Concepts in the Vocabulary Space (preprint)
 
 ### Knowledge Retrieving
 
-1. REALM
+1. Generalization through Memorization: Nearest Neighbor Language Models (ICLR 2020)
+2. REALM: Retrieval-Augmented Language Model Pre-Training (ICML 2020)
+3. Adaptive Semiparametric Language Models (TACL 2021)
+4. Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks (NeurIPS 2020)
+5. Leveraging Passage Retrieval with Generative Models for Open Domain Question Answering (EACL 2021 short)
+6. End-to-End Training of Multi-Document Reader and Retriever for Open-Domain Question Answering (NeurIPS 2021)
+7. WebGPT: Browser-assisted question-answering with human feedback (preprint)
+8. Improving language models by retrieving from trillions of tokens (preprint)
+9. Training Data is More Valuable than You Think: A Simple and Effective Method by Retrieving from Training Data (preprint)
+10. A Survey on Retrieval-Augmented Text Generation (preprint)
 
 ### Knowledge Injection
 
-1. EaE
-2. FaE
-3. OPQL
+1. Entities as Experts: Sparse Memory Access with Entity Supervision (EMNLP 2020)
+2. Facts as Experts: Adaptable and Interpretable Neural Memory over Symbolic Knowledge (preprint)
+3. K-Adapter: Infusing Knowledge into Pre-Trained Models with Adapters (Findings of ACL 2021)
+4. Reasoning Over Virtual Knowledge Bases With Open Predicate Relations (ICML 2021)
+5. Kformer: Knowledge Injection in Transformer Feed-Forward Layers (preprint)
    
 ### Model Editing
 This section contains the pilot works that might contributes to the prevalence of model editiing paradigm.
@@ -108,6 +125,8 @@ This section contains the pilot works that might contributes to the prevalence o
  4. Fast Model Editing at Scale
     a model editor efficient: if the time and memory requirements for computing φ and evaluating E are small.
 gradients are highdimensional objects 👉 using a low-rank decomposition of the gradient
+
+5. Locating and Editing Factual Knowledge in GPT (preprint)
 
 ### Model Editing v.s. Continual Learning
 - Common: assimilating or updating a model’s behavior without catastrophic forgetting
