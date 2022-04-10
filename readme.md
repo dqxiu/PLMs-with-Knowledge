@@ -10,6 +10,7 @@
   - [Introduction](#introduction)
     - [Keywords Convention](#keywords-convention)
   - [Papers](#papers)
+    - [Survey](#survey)
     - [Probing](#probing)
     - [Knowledge Retrieving](#knowledge-retrieving)
     - [Knowledge Injection](#knowledge-injection)
@@ -37,7 +38,9 @@ This is a paper list about **PLMs & Knowledge**.
 ![](https://img.shields.io/badge/20220331-FAEFCA) editing info
 
 ## Papers
+### Survey
 
+1. A Survey of Knowledge-Intensive NLP with Pre-Trained Language Models
 
 ### Probing
 
