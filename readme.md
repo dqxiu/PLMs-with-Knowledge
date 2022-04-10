@@ -40,7 +40,21 @@ This is a paper list about **PLMs & Knowledge**.
 ## Papers
 ### Survey
 
-1. A Survey of Knowledge-Intensive NLP with Pre-Trained Language Models
+1. A Survey of Knowledge-Intensive NLP with Pre-Trained Language Models [pdf](https://arxiv.org/pdf/2202.08772.pdf)
+summarize the current progress of pre-trained language model based knowledge-enhanced models (PLMKEs) by dissecting their three vital elements: knowledge sources, knowledge-intensive NLP tasks, and
+knowledge fusion methods. 
+main encyclopedic knowledge-intensive NLP tasks: 
+- Open-domain QA
+  - Natural Questions
+  - HotpotQA
+- Fact Verification
+  - FEVER
+  - BOOLQ
+- Entity Linking
+  - ACE2004
+  - AIDA CoNLL-YAGO
+  - WNWI
+  - WNCW
 
 ### Probing
 
