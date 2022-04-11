@@ -88,7 +88,8 @@ main encyclopedic knowledge-intensive NLP tasks:
 2. Facts as Experts: Adaptable and Interpretable Neural Memory over Symbolic Knowledge (preprint)
 3. K-Adapter: Infusing Knowledge into Pre-Trained Models with Adapters (Findings of ACL 2021)
 4. Reasoning Over Virtual Knowledge Bases With Open Predicate Relations (ICML 2021)
-5. Kformer: Knowledge Injection in Transformer Feed-Forward Layers (preprint)
+5. AdapterFusion: Non-Destructive Task Composition for Transfer Learning (EACL 2021)
+6. Kformer: Knowledge Injection in Transformer Feed-Forward Layers (preprint)
    
 ### Model Editing
 This section contains the pilot works that might contributes to the prevalence of model editiing paradigm.
