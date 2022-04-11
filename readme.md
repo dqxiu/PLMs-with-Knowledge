@@ -41,22 +41,22 @@ This is a paper list about **PLMs & Knowledge**.
 ## Papers
 ### Survey
 
-1. A Survey of Knowledge-Intensive NLP with Pre-Trained Language Models [[pdf](https://arxiv.org/pdf/2202.08772.pdf)]
-
-summarize the current progress of pre-trained language model based knowledge-enhanced models (PLMKEs) by dissecting their three vital elements: knowledge sources, knowledge-intensive NLP tasks, and
-knowledge fusion methods. 
-main encyclopedic knowledge-intensive NLP tasks: 
-- Open-domain QA
-  - Natural Questions
-  - HotpotQA
-- Fact Verification
-  - FEVER
-  - BOOLQ
-- Entity Linking
-  - ACE2004
-  - AIDA CoNLL-YAGO
-  - WNWI
-  - WNCW
+ 1. A Survey of Knowledge-Intensive NLP with Pre-Trained Language Models [[pdf](https://arxiv.org/pdf/2202.08772.pdf)]
+	
+	summarize the current progress of pre-trained language model based knowledge-enhanced models (PLMKEs) by dissecting their three vital elements: knowledge sources, knowledge-intensive NLP tasks, and
+	knowledge fusion methods. 
+	main encyclopedic knowledge-intensive NLP tasks: 
+	- Open-domain QA
+	  - Natural Questions
+	  - HotpotQA
+	- Fact Verification
+	  - FEVER
+	  - BOOLQ
+	- Entity Linking
+	  - ACE2004
+	  - AIDA CoNLL-YAGO
+	  - WNWI
+	  - WNCW
 
 ### Probing
 
@@ -124,23 +124,23 @@ This section contains the pilot works that might contributes to the prevalence o
 
  2. Modifying Memories in Transformer Models
    Explicitly modifying specific factual knowledge in Transformer models while ensuring the model performance does not degrade on the unmodified facts.
-    - updating stale knowledge
-    - protecting privacy
-    - eliminating unintended biases (debias)
-  #### Baseline
-    - Retraining the model on modified training set
-    - Fine-tuning on modified facts
-    - Fine-tuning on a mixture of modified and unmodified batches
-
-  #### Method
-    Constrained fine-tuning on supporting evidences for modified facts
+   	- Motivation
+		- updating stale knowledge
+		- protecting privacy
+		- eliminating unintended biases (debias)
+  	- Baseline
+		- Retraining the model on modified training set
+		- Fine-tuning on modified facts
+		- Fine-tuning on a mixture of modified and unmodified batches
+	- Method
+    	- Constrained fine-tuning on supporting evidences for modified facts
 
  3. Editing Factual Knowledge in Language Models
-   #### Evaluation
-    success rate: updates the knowledge
-    retain accuracy: retains the original predictions
-    equivalence accuracy: for semantically equivalent inputs,
-    performance deterioration: test performance deteriorates
+   	- Evaluation
+		- success rate: updates the knowledge
+		- retain accuracy: retains the original predictions
+		- equivalence accuracy: for semantically equivalent inputs,
+		- performance deterioration: test performance deteriorates
 
  4. Fast Model Editing at Scale
     a model editor efficient: if the time and memory requirements for computing φ and evaluating E are small.
