@@ -146,6 +146,17 @@ gradients are highdimensional objects 👉 using a low-rank decomposition of the
 
 5. Locating and Editing Factual Knowledge in GPT (preprint)
 
+### Continual Pretraining
+
+1. Don't Stop Pretraining: Adapt Language Models to Domains and Tasks (ACL 2020)
+2. Mind the Gap: Assessing Temporal Generalization in Neural Language Models (NeurIps 2021)
+3. Towards Continual Knowledge Learning of Language Models (preprint)
+4. DEMix Layers: Disentangling Domains for Modular Language Modeling (preprint)
+5. Lifelong Pretraining: Continually Adapting Language Models to Emerging Corpora (preprint)
+6. Time-Aware Language Models as Temporal Knowledge Bases (preprint)
+7. Dynamic Language Models for Continuously Evolving Content (KDD 2021)
+8. ELLE: Efficient Lifelong Pre-training for Emerging Data (Findings of ACL 2022)
+
 ### Model Editing v.s. Continual Learning
 - Common: assimilating or updating a model’s behavior without catastrophic forgetting
 
