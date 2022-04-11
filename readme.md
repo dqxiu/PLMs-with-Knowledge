@@ -18,6 +18,7 @@
       - [Baseline](#baseline)
       - [Method](#method)
       - [Evaluation](#evaluation)
+    - [Continual Pretraining](#continual-pretraining)
     - [Model Editing v.s. Continual Learning](#model-editing-vs-continual-learning)
 
 
